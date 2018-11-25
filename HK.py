@@ -1,4 +1,4 @@
-#HK
+#玉山銀行 HK 港幣匯率
 import pymysql
 from pyquery import PyQuery as pq
 
