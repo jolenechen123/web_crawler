@@ -1,3 +1,4 @@
+#yahoo基金績效排行榜 (https://tw.money.yahoo.com/fund/ranklist)
 import pandas as pd
 # %matplotlib inline
 from sqlalchemy import create_engine,Table,Column,Integer,String,MetaData,ForeignKey
@@ -5,7 +6,7 @@ engine = create_engine("mysql+pymysql://root:usbw@localhost:3307/test?charset=ut
 con = engine.connect()
 
 url = "https://tw.money.yahoo.com/fund/ranklist"
-df = pd.read_html(url)[1]
+df = pd.read_html(url)[1] #使用pd抓取資料
 # df.head()
 df_topStock = df.iloc[2:,3:13]
 for x in range(7,13):
