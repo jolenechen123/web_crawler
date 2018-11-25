@@ -1,3 +1,4 @@
+# 國軍高雄總醫院藥品查詢系統 動態爬蟲 (https://806.mnd.gov.tw/ph/Med_Web/)
 from selenium import webdriver
 import pandas as pd
 from pyquery import PyQuery as pq
