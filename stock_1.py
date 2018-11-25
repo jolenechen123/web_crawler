@@ -1,3 +1,4 @@
+#yahoo股市-使用css定位抓取 (https://tw.stock.yahoo.com/s/list2.php?c=%B6%B3%BA%DD%AC%DB%C3%F6&rr=0.51292600%201536566161)
 from pyquery import PyQuery as pq
 from selenium import webdriver
 import pandas as pd
