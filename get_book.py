@@ -1,3 +1,4 @@
+# 誠品書誠 動態網頁爬蟲 (http://www.eslite.com/newbook_list.aspx?cate=156&sub=221&list=231)
 def get_book_info(url,page):
     from selenium import webdriver
     import pandas as pd
