@@ -1,3 +1,4 @@
+# mobile01討論區  (https://www.mobile01.com/forumtopic.php?c=20&p=1)
 from selenium import webdriver
 from pyquery import PyQuery as pq
 import mysql.connector
@@ -15,7 +16,7 @@ mycursor = mydb.cursor()
 mycursor.execute("CREATE TABLE test8 (title VARCHAR(255), reply int, writer VARCHAR(255),writer_date date,response VARCHAR(255),response_date date, title_url VARCHAR(255))")
 
 
-
+#靜態爬蟲
 
 camera_url = "https://www.mobile01.com/forumtopic.php?c=20&p=1"
 html_doc = pq(camera_url)
